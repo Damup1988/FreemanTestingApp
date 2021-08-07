@@ -1,0 +1,12 @@
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\bin\Debug\net5.0\SimpleApp.Models.deps.json
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\bin\Debug\net5.0\SimpleApp.Models.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\bin\Debug\net5.0\ref\SimpleApp.Models.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\bin\Debug\net5.0\SimpleApp.Models.pdb
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.csprojAssemblyReference.cache
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.AssemblyInfoInputs.cache
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.AssemblyInfo.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.csproj.CoreCompileInputs.cache
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\ref\SimpleApp.Models.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\Testing\SimpleApp.Models\obj\Debug\net5.0\SimpleApp.Models.pdb

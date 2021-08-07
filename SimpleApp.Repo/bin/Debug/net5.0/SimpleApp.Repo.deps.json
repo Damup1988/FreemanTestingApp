@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SimpleApp.Repo/1.0.0": {
+        "dependencies": {
+          "SimpleApp.Models": "1.0.0"
+        },
+        "runtime": {
+          "SimpleApp.Repo.dll": {}
+        }
+      },
+      "SimpleApp.Models/1.0.0": {
+        "runtime": {
+          "SimpleApp.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleApp.Repo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

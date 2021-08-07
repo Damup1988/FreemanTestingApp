@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Models;
+using SimpleApp.Models;
+using SimpleApp.Repo;
 
 namespace SimpleApp.Controllers
 {
     public class HomeController : Controller
     {
+        public IDataSource dataSource = new ProductDataStore();
         public ViewResult Index()
         {
-            return View(Product.GetProducts());
+            return View(dataSource.Products);
         }
     }
 }

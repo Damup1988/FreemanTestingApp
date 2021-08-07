@@ -2,28 +2,47 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Models/1.0.0": {
+      "SimpleApp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/SimpleApp.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/SimpleApp.Models.dll": {}
+        }
+      },
+      "SimpleApp.Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SimpleApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SimpleApp.Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleApp.Repo.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Models/1.0.0": {
+    "SimpleApp.Models/1.0.0": {
       "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
+      "path": "../SimpleApp.Models/SimpleApp.Models.csproj",
+      "msbuildProject": "../SimpleApp.Models/SimpleApp.Models.csproj"
+    },
+    "SimpleApp.Repo/1.0.0": {
+      "type": "project",
+      "path": "../SimpleApp.Repo/SimpleApp.Repo.csproj",
+      "msbuildProject": "../SimpleApp.Repo/SimpleApp.Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Models >= 1.0.0"
+      "SimpleApp.Models >= 1.0.0",
+      "SimpleApp.Repo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,8 +70,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\_ONEDRIVE\\OneDrive\\_Coding\\_Projects\\Freeman\\Testing\\Models\\Models.csproj": {
-              "projectPath": "D:\\_ONEDRIVE\\OneDrive\\_Coding\\_Projects\\Freeman\\Testing\\Models\\Models.csproj"
+            "D:\\_ONEDRIVE\\OneDrive\\_Coding\\_Projects\\Freeman\\Testing\\SimpleApp.Models\\SimpleApp.Models.csproj": {
+              "projectPath": "D:\\_ONEDRIVE\\OneDrive\\_Coding\\_Projects\\Freeman\\Testing\\SimpleApp.Models\\SimpleApp.Models.csproj"
+            },
+            "D:\\_ONEDRIVE\\OneDrive\\_Coding\\_Projects\\Freeman\\Testing\\SimpleApp.Repo\\SimpleApp.Repo.csproj": {
+              "projectPath": "D:\\_ONEDRIVE\\OneDrive\\_Coding\\_Projects\\Freeman\\Testing\\SimpleApp.Repo\\SimpleApp.Repo.csproj"
             }
           }
         }

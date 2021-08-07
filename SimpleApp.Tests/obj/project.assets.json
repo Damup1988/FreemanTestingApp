@@ -1649,21 +1649,12 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Models.dll": {}
-        }
-      },
       "SimpleApp/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Models": "1.0.0"
+          "SimpleApp.Models": "1.0.0",
+          "SimpleApp.Repo": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SimpleApp.dll": {}
@@ -1674,6 +1665,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SimpleApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SimpleApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleApp.Models.dll": {}
+        }
+      },
+      "SimpleApp.Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SimpleApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SimpleApp.Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleApp.Repo.dll": {}
+        }
       }
     }
   },
@@ -5638,15 +5652,20 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Models/1.0.0": {
-      "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
-    },
     "SimpleApp/1.0.0": {
       "type": "project",
       "path": "../SimpleApp/SimpleApp.csproj",
       "msbuildProject": "../SimpleApp/SimpleApp.csproj"
+    },
+    "SimpleApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../SimpleApp.Models/SimpleApp.Models.csproj",
+      "msbuildProject": "../SimpleApp.Models/SimpleApp.Models.csproj"
+    },
+    "SimpleApp.Repo/1.0.0": {
+      "type": "project",
+      "path": "../SimpleApp.Repo/SimpleApp.Repo.csproj",
+      "msbuildProject": "../SimpleApp.Repo/SimpleApp.Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {

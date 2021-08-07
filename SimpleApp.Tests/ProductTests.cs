@@ -1,4 +1,4 @@
-﻿using Models;
+﻿using SimpleApp.Models;
 using Xunit;
 
 namespace SimpleApp.Tests

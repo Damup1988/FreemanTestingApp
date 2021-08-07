@@ -8,8 +8,8 @@ namespace SimpleApp.Repo
         public IEnumerable<Product> Products =>
             new Product[]
             {
-                new Product {Name = "Kayak", Price = 275M},
-                new Product {Name = "LifeJacket", Price = 48.95M}
+                new Product { Name = "Kayak", Price = 275M },
+                new Product { Name = "LifeJacket", Price = 48.95M }
             };
     }
 }

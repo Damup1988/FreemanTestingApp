@@ -9,7 +9,7 @@ namespace SimpleApp.Tests
         public void CanChangeProductName()
         {
             // Arrange
-            var p = new Product {Name = "Test", Price = 100M};
+            var p = new Product { Name = "Test", Price = 100M };
             
             // Act
             p.Name = "New Name";
